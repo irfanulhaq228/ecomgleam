@@ -68,7 +68,7 @@ const Section1 = () => {
             className="h-[40px] px-[16px] bg-black rounded-full text-white text-[14px] font-[600]"
             onClick={() => {
               navigate("/contact-us");
-              window.location.reload();
+              // window.location.reload();
             }}
           >
             Let's Chat
@@ -77,7 +77,7 @@ const Section1 = () => {
             className="h-[40px] px-[16px] bg-[var(--main-color)] rounded-full text-white text-[14px] font-[600]"
             onClick={() => {
               navigate("/about-us");
-              window.location.reload();
+              // window.location.reload();
             }}
           >
             Our Story

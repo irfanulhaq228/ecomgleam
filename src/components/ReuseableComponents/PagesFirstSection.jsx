@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import "animate.css/animate.min.css";
 
 const PagesFirstSection = ({ subheading, content, heading, video, img }) => {
+  const navigate = useNavigate();
   const leftDivRef = useRef(null);
   const rightDivRef = useRef(null);
 
@@ -62,10 +64,10 @@ const PagesFirstSection = ({ subheading, content, heading, video, img }) => {
           {content}
         </p>
         <div className="mt-[15px] lg:mt-[30px] flex justify-center lg:justify-start gap-4 max-w-[600px]">
-          <button className="h-[40px] px-[16px] bg-black rounded-full text-white text-[14px] font-[600]">
+          <button className="h-[40px] px-[16px] bg-black rounded-full text-white text-[14px] font-[600]" onClick={() => navigate("/contact-us")}>
             Let's Chat
           </button>
-          <button className="h-[40px] px-[16px] bg-[var(--main-color)] rounded-full text-white text-[14px] font-[600]">
+          <button className="h-[40px] px-[16px] bg-[var(--main-color)] rounded-full text-white text-[14px] font-[600]" onClick={() => navigate("/about-us")}>
             Our Story
           </button>
         </div>
