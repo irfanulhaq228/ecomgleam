@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --main-color: #00a797;
+  --dark-color: #0d8372;
+  --heading-color: #585858;
+  --new-heading-color: #1E1E1E;
+  --light-gray-bg: rgba(186, 186, 186, 0.11);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(206, 206, 206);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0b665a;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ======================== services section 2 ======================== */
+
+.service-card-show{
+  width: 0;
+  transition: all 0.5s ease;
+  left: 0;
+}
+
+.service-card:hover .service-card-show{
+  width: 100%;
+}
+
+/* ======================== services section 3 ======================== */
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: black;
+  z-index: 1;
+  scale: 1.5;
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover {
+  color: black;
+}
+
+/* ======================== services section 4 animation ======================== */
+
+.circle-box {
+  background-color: white;
+  width: 140px;
+  height: 140px;
+  border: 5px solid var(--main-color);
+  border-radius: 140px;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-box-desc1 {
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  height: 85px;
+  border-radius: 30px;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 0px;
+  padding-left: 0px;
+  text-transform: capitalize;
+  padding-right: 30px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.circle-box-desc1-show {
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  height: 85px;
+  border-radius: 30px;
+  color: #00A797;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 400px;
+  padding-left: 150px;
+  text-transform: capitalize;
+  padding-right: 30px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.circle-box-desc2 {
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  height: 85px;
+  border-radius: 30px;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 0px;
+  padding-right: 0px;
+  text-transform: capitalize;
+  padding-left: 30px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.circle-box-desc2-show {
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  height: 85px;
+  border-radius: 30px;
+  color: #00A797;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 400px;
+  padding-right: 150px;
+  text-transform: capitalize;
+  padding-left: 30px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+
+/* ============================= home section 1 animation ============================== */
+
+.custom-carousel .slick-dots-bottom li {
+  background-color: rgba(189, 186, 186, 0.301) !important;
+  border-radius: 20px;
+  height: 5px !important;
+}
+
+.custom-carousel .slick-active button::after {
+  background-color: var(--main-color) !important;
+  border-radius: 20px;
+  height: 5px !important;
+  margin-top: 4px !important;
+}
