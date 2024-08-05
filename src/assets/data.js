@@ -1,53 +1,69 @@
 export const ServiceSliderData = [
     {
+        imgName: "../../assets/imgs/3PL-slider-1.png",
         text: "Expert inventory management"
     },
     {
+        imgName: "../../assets/imgs/3PL-slider-2.png",
         text: "Scalable solutions"
     },
     {
+        imgName: "../../assets/imgs/3PL-slider-3.png",
         text: "Real-time visibility"
     },
     {
+        imgName: "../../assets/imgs/3PL-slider-4.png",
         text: "FBA prep and delivery"
     },
     {
+        imgName: "../../assets/imgs/3PL-slider-5.png",
         text: "Fast order processing"
     },
+    // {
+    //     text: "Eco-friendly practices"
+    // },
     {
-        text: "Eco-friendly practices"
-    },
-    {
+        imgName: "../../assets/imgs/3PL-slider-6.png",
         text: "Comprehensive reporting"
     },
     {
+        imgName: "../../assets/imgs/wholesale-section-4-img-6.png",
         text: "Secure facilities"
     },
     {
+        imgName: "../../assets/imgs/3PL-slider-8.png",
         text: "On-demand warehousing"
     },
     {
+        imgName: "../../assets/imgs/about-sec-4-img-3.png",
         text: "Cost-effective solutions"
     },
     {
+        imgName: "../../assets/imgs/3PL-slider-10.png",
         text: "Advanced technology"
     },
     {
+        imgName: "../../assets/imgs/About-data-2-img-2.png",
         text: "Dedicated customer support"
     },
     {
+        imgName: "../../assets/imgs/wholesale-section-4-img-4.png",
         text: "Returns management"
     },
     {
+        imgName: "../../assets/imgs/3PL-slider-13.png",
         text: "Global network"
     },
     {
+        imgName: "../../assets/imgs/retail-sec-3-img-2.png",
         text: "Seamless fulfilment integration"
     },
     {
+        imgName: "../../assets/imgs/3PL-slider-15.png",
         text: "Hazmat Product Delivery"
     },
     {
+        imgName: "../../assets/imgs/3PL-slider-16.png",
         text: "Seasoned E-commerce Team"
     },
 ];

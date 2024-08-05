@@ -63,7 +63,7 @@ const Section4 = () => {
     }
   }, [desc5]);
   return (
-    <div className="mt-[20px] mb-[120px] bg-[--main-color] text-white py-[50px] hidden md:flex flex-col items-center gap-[30px]">
+    <div className="mt-[20px] mb-[120px] bg-[--main-color] text-white py-[50px] xl:pt-[130px] hidden md:flex flex-col items-center gap-[30px] rounded-[30px] md:rounded-[50] xl:rounded-[90px]">
       <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center uppercase text-white mb-[15px] px-[15px] md:w-[600px] lg:w-[750px]">
         With our 3PL solutions, business owners increase their profits
       </p>
@@ -82,7 +82,7 @@ const Section4 = () => {
               !desc1 ? "circle-box-desc1" : "circle-box-desc1-show"
             }`}
           >
-            {text1 && "Exceptional delivery performance"}
+            {text1 && "EXCEPTIONAL DELIVERY PERFORMANCE"}
           </div>
         </div>
         {/* circle-2 */}
@@ -99,7 +99,7 @@ const Section4 = () => {
               !desc2 ? "circle-box-desc2" : "circle-box-desc2-show"
             }`}
           >
-            {text2 && "A large amount of storage space"}
+            {text2 && "A LARGE AMOUNT OF STORAGE SPACE"}
           </div>
         </div>
         {/* circle-3 */}
@@ -116,7 +116,7 @@ const Section4 = () => {
               !desc3 ? "circle-box-desc1" : "circle-box-desc1-show"
             }`}
           >
-            {text3 && "Speedy shipping"}
+            {text3 && "SPEEDY SHIPPING"}
           </div>
         </div>
         {/* circle-4 */}
@@ -133,7 +133,7 @@ const Section4 = () => {
               !desc4 ? "circle-box-desc2" : "circle-box-desc2-show"
             }`}
           >
-            {text4 && "Pay-as-you-go pricing"}
+            {text4 && "PAY-AS-YOU-GO PRICING"}
           </div>
         </div>
         {/* circle-5 */}
@@ -148,9 +148,9 @@ const Section4 = () => {
           <div
             className={`${
               !desc5 ? "circle-box-desc1" : "circle-box-desc1-show"
-            }`}
+            } capitalize`}
           >
-            {text5 && "Pay-as-you-go pricing"}
+            {text5 && "OPERATING COSTS WERE REDUCED"}
           </div>
         </div>
         <div className="absolute top-0 text-black border-2 border-white h-full"></div>

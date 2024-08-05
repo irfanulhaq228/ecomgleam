@@ -5,6 +5,8 @@ import "antd/dist/antd";
 
 import { ServiceSliderData } from "../../assets/data";
 
+import img from "../../assets/imgs/3PL-slider-1.png";
+
 const responsiveSettings = [
   {
     breakpoint: 1200, // xl
@@ -42,7 +44,7 @@ const Section3 = () => {
         Customized warehousing solutions aimed at improving inventory
         management, streamlining operations, and fostering business growth.
       </p>
-      <div className="w-[95%] xl:w-[1150px] mt-[20px]">
+      <div className="w-[95%] xl:w-[1150px] mt-[20px] xl:mt-0 xl:mb-[-100px] z-[999] bg-white shadow-xl py-[20px]">
         <Carousel
           infinite={true}
           autoplay
@@ -54,7 +56,8 @@ const Section3 = () => {
         >
           {ServiceSliderData?.map((item, index) => (
             <div key={index}>
-              <p className="capitalize text-[20px] sm:text-[23px] font-[700] h-[180px] text-[--main-color] text-center flex justify-center items-center w-[250px]">
+              <p className="capitalize text-[20px] sm:text-[23px] font-[700] h-[270px] text-[--main-color] text-center flex flex-col gap-1 justify-center items-center sm:w-[250px]">
+                <img src={img} className="w-[150px]" />
                 {item?.text}
               </p>
             </div>
