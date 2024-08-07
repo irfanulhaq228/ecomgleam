@@ -1,69 +1,86 @@
+import ServiceSliderImg1 from "../assets/imgs/3PL-slider-1.png";
+import ServiceSliderImg2 from "../assets/imgs/3PL-slider-2.png";
+import ServiceSliderImg3 from "../assets/imgs/3PL-slider-3.png";
+import ServiceSliderImg4 from "../assets/imgs/3PL-slider-4.png";
+import ServiceSliderImg5 from "../assets/imgs/3PL-slider-5.png";
+import ServiceSliderImg6 from "../assets/imgs/3PL-slider-6.png";
+import ServiceSliderImg7 from "../assets/imgs/wholesale-section-4-img-6.png";
+import ServiceSliderImg8 from "../assets/imgs/3PL-slider-8.png";
+import ServiceSliderImg9 from "../assets/imgs/about-sec-4-img-3.png";
+import ServiceSliderImg10 from "../assets/imgs/3PL-slider-10.png";
+import ServiceSliderImg11 from "../assets/imgs/About-data-2-img-2.png";
+import ServiceSliderImg12 from "../assets/imgs/wholesale-section-4-img-4.png";
+import ServiceSliderImg13 from "../assets/imgs/3PL-slider-13.png";
+import ServiceSliderImg14 from "../assets/imgs/retail-sec-3-img-2.png";
+import ServiceSliderImg15 from "../assets/imgs/3PL-slider-15.png";
+import ServiceSliderImg16 from "../assets/imgs/3PL-slider-16.png";
+
 export const ServiceSliderData = [
     {
-        imgName: "../../assets/imgs/3PL-slider-1.png",
+        imgName: ServiceSliderImg1,
         text: "Expert inventory management"
     },
     {
-        imgName: "../../assets/imgs/3PL-slider-2.png",
+        imgName: ServiceSliderImg2,
         text: "Scalable solutions"
     },
     {
-        imgName: "../../assets/imgs/3PL-slider-3.png",
+        imgName: ServiceSliderImg3,
         text: "Real-time visibility"
     },
     {
-        imgName: "../../assets/imgs/3PL-slider-4.png",
+        imgName: ServiceSliderImg4,
         text: "FBA prep and delivery"
     },
     {
-        imgName: "../../assets/imgs/3PL-slider-5.png",
+        imgName: ServiceSliderImg5,
         text: "Fast order processing"
     },
     // {
     //     text: "Eco-friendly practices"
     // },
     {
-        imgName: "../../assets/imgs/3PL-slider-6.png",
+        imgName: ServiceSliderImg6,
         text: "Comprehensive reporting"
     },
     {
-        imgName: "../../assets/imgs/wholesale-section-4-img-6.png",
+        imgName: ServiceSliderImg7,
         text: "Secure facilities"
     },
     {
-        imgName: "../../assets/imgs/3PL-slider-8.png",
+        imgName: ServiceSliderImg8,
         text: "On-demand warehousing"
     },
     {
-        imgName: "../../assets/imgs/about-sec-4-img-3.png",
+        imgName: ServiceSliderImg9,
         text: "Cost-effective solutions"
     },
     {
-        imgName: "../../assets/imgs/3PL-slider-10.png",
+        imgName: ServiceSliderImg10,
         text: "Advanced technology"
     },
     {
-        imgName: "../../assets/imgs/About-data-2-img-2.png",
+        imgName: ServiceSliderImg11,
         text: "Dedicated customer support"
     },
     {
-        imgName: "../../assets/imgs/wholesale-section-4-img-4.png",
+        imgName: ServiceSliderImg12,
         text: "Returns management"
     },
     {
-        imgName: "../../assets/imgs/3PL-slider-13.png",
+        imgName: ServiceSliderImg13,
         text: "Global network"
     },
     {
-        imgName: "../../assets/imgs/retail-sec-3-img-2.png",
+        imgName: ServiceSliderImg14,
         text: "Seamless fulfilment integration"
     },
     {
-        imgName: "../../assets/imgs/3PL-slider-15.png",
+        imgName: ServiceSliderImg15,
         text: "Hazmat Product Delivery"
     },
     {
-        imgName: "../../assets/imgs/3PL-slider-16.png",
+        imgName: ServiceSliderImg16,
         text: "Seasoned E-commerce Team"
     },
 ];

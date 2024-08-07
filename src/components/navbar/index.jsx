@@ -50,7 +50,7 @@ const Navbar = () => {
         />
       </Helmet>
 
-      <header className="lg:h-[100px] flex">
+      <header className="lg:h-[85px] flex">
         <div className="bg-white h-full w-[max-content] md:w-[280px] lg:w-[365px] flex items-end justify-end px-[10px] py-2 lg:py-0 md:ps-0 md:pe-[25px]">
           <img
             src={Ecomgleam}
@@ -92,7 +92,7 @@ const Navbar = () => {
               Contact Us
             </Link>
           </div>
-          <div className="hidden lg:flex flex-col gap-1.5 justify-center text-[15px]">
+          <div className="hidden lg:flex flex-col gap-1.5 justify-end pb-5 text-[15px]">
             <p
               className="font-[700] flex items-center gap-2 text-white cursor-pointer"
               onClick={() => handleWhatsAppClick("+12153058197")}
@@ -100,7 +100,7 @@ const Navbar = () => {
               <img src={PhoneCall} className="w-[20px] h-[20px]" alt="Phone" />
               +1 (215) 305-8197
             </p>
-            <p className="font-[600] flex gap-2 text-white">
+            {/* <p className="font-[600] flex gap-2 text-white">
               <img
                 src={Mail}
                 className="w-[20px] h-[20px] mt-[2px]"
@@ -120,7 +120,7 @@ const Navbar = () => {
                   career@ecomgleam.com
                 </span>
               </span>
-            </p>
+            </p> */}
           </div>
         </nav>
       </header>

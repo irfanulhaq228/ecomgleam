@@ -11,7 +11,7 @@ import shopifyLogo from "../../assets/imgs/shopify-logo.png";
 
 const Section7 = () => {
   return (
-    <div className="py-10 px-4 mt-[30px]">
+    <div className="py-10 px-4 mt-[30px] flex flex-col">
       <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-center uppercase text-[--main-heading-color]">
         Our Partners
       </p>
@@ -38,6 +38,7 @@ const Section7 = () => {
           <img src={shopifyLogo} className="w-full" alt="Shopify Logo" />
         </div>
       </Marquee>
+      <hr className="w-[90%] self-center mt-[30px]" />
     </div>
   );
 };

@@ -50,16 +50,17 @@ const Section3 = () => {
           autoplay
           autoplaySpeed={3000}
           slidesToShow={3}
+          slidesToScroll={3}
           responsive={responsiveSettings}
           style={{ fontFamily: "inter", padding: "0 20px" }}
           className="custom-carousel"
         >
           {ServiceSliderData?.map((item, index) => (
-            <div key={index}>
-              <p className="capitalize text-[20px] sm:text-[23px] font-[700] h-[270px] text-[--main-color] text-center flex flex-col gap-1 justify-center items-center sm:w-[250px]">
-                <img src={img} className="w-[150px]" />
+            <div key={index} className="xl:ps-14">
+              <div className="capitalize text-[20px] sm:text-[23px] font-[700] h-[270px] text-[--main-color] text-center flex flex-col gap-1 pt-[25px] items-center sm:w-[250px] leading-7">
+                <img src={item?.imgName} className="w-[150px] h-[140px] object-contain" />
                 {item?.text}
-              </p>
+              </div>
             </div>
           ))}
         </Carousel>
